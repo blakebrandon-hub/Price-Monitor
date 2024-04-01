@@ -7,8 +7,8 @@ Track the prices of multiple ebay products and receive email alerts when there i
 
 Example:
 
-<code>from ebay_tracker import ProductTracker
-pt = ProductTracker()</code>
+<code>from ebay_tracker import ProductTracker</code>
+<code>pt = ProductTracker()</code>
 
 # add product to track
 pt.add_product(url)
