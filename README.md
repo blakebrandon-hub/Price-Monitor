@@ -21,4 +21,6 @@ pt.print_database()
 # check for price changes
 pt.compare_prices()
 
-If any changes are detected, the database will update and an email alert will be sent
+You will be prompted to enter an amount of time in seconds. This is the frequency that the script will run. Adjust as needed.
+
+If any changes are detected, the database will be updated with the new prices and an email alert will be sent
