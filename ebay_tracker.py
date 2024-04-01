@@ -82,8 +82,7 @@ class ProductTracker:
 			time.sleep(int(interval))			
 
 	def send_email(self):
-	    myEmail = ''
-     myPass = ''
+	    myEmail, myPass = '', ''
 	    smtp_server = 'smtp.gmail.com'
 	    smtp_port = 587
 	    message = '\n'.join(self.price_changes)
