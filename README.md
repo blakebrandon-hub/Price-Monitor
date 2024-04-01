@@ -7,7 +7,8 @@ Track the prices of multiple ebay products and receive email alerts when there i
 
 Example:
 
-from ebay_tracker import ProductTracker
+<code>from ebay_tracker import ProductTracker
+
 pt = ProductTracker()
 
 # add product to track
@@ -20,8 +21,8 @@ pt.remove_product(url)
 pt.print_database()
 
 # check for price changes
-pt.compare_prices()
+pt.compare_prices()</code>
 
-You will be prompted to enter an amount of time in seconds. This is the frequency that the script will run. Adjust as needed.
+You will be prompted to enter an interval of time in seconds. This is the frequency that the script will run. Adjust as needed.
 
 If any changes are detected, the database will be updated with the new prices and an email alert will be sent
