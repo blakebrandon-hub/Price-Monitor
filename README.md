@@ -13,7 +13,7 @@ Example:
 <code>from ebay_tracker import ProductTracker</code>
 <code>pt = ProductTracker()</code>
 
-# add product to track
+## add product to track
 <code>pt.add_product(url)</code>
 
 # remove product
@@ -27,4 +27,4 @@ Example:
 
 You will be prompted to enter an interval of time in seconds. This is the frequency that the script will run. Adjust as needed.
 
-If any changes are detected, the database will be updated with new prices and an email alert will be sent
+If any changes are detected, the database will be updated with any new prices and an email alert will be sent
