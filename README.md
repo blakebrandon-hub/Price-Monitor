@@ -2,14 +2,14 @@
 
 Track the prices of multiple products and receive email alerts when there are price changes
 
-How to use this tool: 
+Requirements: 
 
 1. Install Beautiful Soup
 
    <code>pip install beautifulsoup4</code>
 
 
-2. Run script
+How to use this tool:
 
 Example:
 
