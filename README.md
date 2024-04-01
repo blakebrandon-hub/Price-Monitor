@@ -4,7 +4,7 @@ Track the prices of multiple ebay products and receive email alerts when there a
 
 1. Install Beautiful Soup
 
-  <code>pip install beautifulsoup4</code>
+   <code>pip install beautifulsoup4</code>
 
 
 2. Run script
