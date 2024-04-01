@@ -11,6 +11,7 @@ Requirements:
 Example:
 
 <code>from ebay_tracker import ProductTracker</code>
+
 <code>pt = ProductTracker()</code>
 
 ## add product to track
