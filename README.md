@@ -8,9 +8,6 @@ Requirements:
 
    <code>pip install beautifulsoup4</code>
 
-
-How to use this tool:
-
 Example:
 
 <code>from ebay_tracker import ProductTracker</code>
