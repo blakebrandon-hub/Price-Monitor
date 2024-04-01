@@ -9,7 +9,7 @@ Example:
 
 <code>from ebay_tracker import ProductTracker
 
-pt = ProductTracker()
+pt = ProductTracker()</code>
 
 # add product to track
 pt.add_product(url)
@@ -21,7 +21,7 @@ pt.remove_product(url)
 pt.print_database()
 
 # check for price changes
-pt.compare_prices()</code>
+pt.compare_prices()
 
 You will be prompted to enter an interval of time in seconds. This is the frequency that the script will run. Adjust as needed.
 
