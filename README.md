@@ -1,6 +1,6 @@
 # eBay Price Tracker with Email Alerts
 
-Track the prices of multiple ebay products and receive email alerts when there are price changes
+Track the prices of multiple products and receive email alerts when there are price changes
 
 How to use this tool: 
 
