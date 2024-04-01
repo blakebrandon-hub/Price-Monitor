@@ -6,6 +6,7 @@ Track the prices of multiple ebay products and receive email alerts when there i
 2. Run script
 
 Example:
+
 from ebay_tracker import ProductTracker
 pt = ProductTracker()
 
