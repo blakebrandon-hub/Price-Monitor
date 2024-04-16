@@ -1,6 +1,6 @@
 # eBay Price Tracker with Email Alerts
 
-Track the prices of multiple products and receive email alerts when there are price changes
+This is a command-line tool that can track the prices of multiple products and send email alerts when there are price changes or changes in availibility
 
 Requirements: 
 
@@ -8,7 +8,7 @@ Requirements:
 
    <code>pip install beautifulsoup4</code>
 
-Example:
+Example Usage:
 
 <code>from ebay_tracker import ProductTracker</code>
 
