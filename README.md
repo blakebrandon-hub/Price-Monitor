@@ -10,7 +10,7 @@ This command-line tool was designed to track the prices of various eBay products
 
 
 
-### Adding a product to track
+### Add a product to track
 <code>add_product(url)</code>
 
 ### Stop tracking a product
