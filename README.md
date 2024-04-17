@@ -33,7 +33,7 @@ This command-line tool is designed to track the prices and availability of multi
 
 ### Configuration Settings 
 
-KEEP_RUNNING: If set to False script will run ONLY once. If set to True script will continue to run in the background.
+KEEP_RUNNING: If set to False script will run ONLY once. If set to True script will continue to run in the background
 
 INTERVAL_IN_SECONDS: Frequency the script will run if KEEP_RUNNING is set to True
 
