@@ -1,8 +1,6 @@
 # eBay Price Tracker with Email Alerts
 
-This command-line tool was designed to track the prices of multiple eBay products and then send email alerts when any changes in price or availability are detected.
-
-Email credentials must be entered for alert functionality.
+This command-line tool was designed to track the prices of multiple eBay products and then send email alerts when any changes in price or availability are detected. Email credentials must be entered for alert functionality.
 
 
 
@@ -11,13 +9,14 @@ Email credentials must be entered for alert functionality.
 1. Install Beautiful Soup
 
 
-### How to generate an app password with gmail:
+#### How to generate an app password with gmail:
 <url>https://support.google.com/accounts/answer/185833?hl=en</url>
 
 <br>
 
 ### Adding a product to track
 <code>add_product(url)</code>
+
 
 ### Stop tracking a product
 <code>remove_product(url)</code>
@@ -29,5 +28,13 @@ Email credentials must be entered for alert functionality.
 
 ### Check for price changes
 <code>compare_prices()</code>
+
+<br>
+
+### Configuration Settings 
+
+KEEP_RUNNING: If set to False script will run ONLY once. If set to TRUE script will continue to run in the background.
+
+INTERVAL_IN_SECONDS: Frequency the script will run if KEEP_RUNNING is set to True
 
 
