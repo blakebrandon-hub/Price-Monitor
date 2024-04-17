@@ -15,6 +15,12 @@ class ProductTracker:
 		self.conn.commit()
 		self.price_changes = []
 
+		# If KEEP_RUNNING is set to False script will run ONLY once. If KEEP_RUNNING set to TRUE script will continue to run in background
+		self.KEEP_RUNNING = False
+		
+		# INTERVAL_IN_SECONDS is the frequency that the script will run
+		self.INTERVAL_IN_SECONDS = 0
+
 	def print_database(self):
 		products = self.cursor.execute('SELECT * FROM products')
 		for product in products:
@@ -37,8 +43,8 @@ class ProductTracker:
 		self.conn.commit()
 		print('Product removed from database')
 
-	def compare_prices(self, keep_running):
-		if keep_running:
+	def compare_prices(self):
+		if self.KEEP_RUNNING:
 			interval = input('How often to check prices (in seconds)?')
 	
 		while True:
@@ -82,7 +88,7 @@ class ProductTracker:
 			if keep_running == False:
 				break
 			else:
-				time.sleep(int(interval_in_seconds))
+				time.sleep(int(self.INTERVAL_IN_SECONDS))
 
 	def send_email(self):
 	    myEmail = ''
