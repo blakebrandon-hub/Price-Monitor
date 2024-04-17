@@ -37,9 +37,11 @@ class ProductTracker:
 		self.conn.commit()
 		print('Product removed from database')
 
-	def compare_prices(self):
-		interval = input('How often to check prices (seconds)? ')
+	def compare_prices(self, keep_running):
 
+		if keep_running:
+			interval = input('How often to check prices (in seconds)?')
+	
 		while True:
 			products = self.cursor.execute("SELECT * FROM products")
 			for product in products:
@@ -78,11 +80,15 @@ class ProductTracker:
 					print(f"({formatted_time}) {message}")
 					self.send_email()
 
+			if keep_running == False:
+				break
+			else:
+				time.sleep(int(interval_in_seconds))
 
-			time.sleep(int(interval))			
 
 	def send_email(self):
-	    myEmail, myPass = '', ''
+	    myEmail = ''
+	    myPass = ''
 	    smtp_server = 'smtp.gmail.com'
 	    smtp_port = 587
 	    message = '\n'.join(self.price_changes)
