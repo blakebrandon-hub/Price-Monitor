@@ -30,3 +30,4 @@ Email credentials must be entered for alert functionality.
 ### Check for price changes
 <code>compare_prices()</code>
 
+
