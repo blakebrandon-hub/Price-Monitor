@@ -38,7 +38,6 @@ class ProductTracker:
 		print('Product removed from database')
 
 	def compare_prices(self, keep_running):
-
 		if keep_running:
 			interval = input('How often to check prices (in seconds)?')
 	
@@ -84,7 +83,6 @@ class ProductTracker:
 				break
 			else:
 				time.sleep(int(interval_in_seconds))
-
 
 	def send_email(self):
 	    myEmail = ''
