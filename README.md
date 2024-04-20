@@ -1,4 +1,4 @@
-# eBay Price Tracker with Email Alerts
+# eBay Price Tracker
 
 This command-line tool tracks the prices and availability of products on eBay and will send email alerts if any changes are detected. Email credentials must be entered for alert functionality.
 
