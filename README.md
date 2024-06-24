@@ -1,6 +1,6 @@
 # Price Monitor
 
-A command-line tool tracks the prices and availability of products on eBay and sends email alerts if any changes are detected. Email credentials must be entered for alert functionality.
+A command-line tool that tracks the prices and availability of products on eBay and sends you email alerts if any changes are detected. Email credentials must be entered for alert functionality.
 
 
 
